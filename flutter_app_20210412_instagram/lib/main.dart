@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_instagram/account_page.dart';
-import 'package:flutter_app_instagram/login_page.dart';
-import 'package:flutter_app_instagram/root_page.dart';
-import 'package:flutter_app_instagram/search_page.dart';
-import 'package:flutter_app_instagram/tab_page.dart';
+import 'package:flutter_app_20210412_instagram/account_page.dart';
+import 'package:flutter_app_20210412_instagram/login_page.dart';
+import 'package:flutter_app_20210412_instagram/root_page.dart';
+import 'package:flutter_app_20210412_instagram/search_page.dart';
+import 'package:flutter_app_20210412_instagram/tab_page.dart';
 
 void main() {
   runApp(MyApp());

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_instagram/create_page.dart';
+import 'package:flutter_app_20210412_instagram/create_page.dart';
 
 class SearchPage extends StatefulWidget {
   @override

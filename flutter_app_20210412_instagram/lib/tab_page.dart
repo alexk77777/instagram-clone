@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_instagram/account_page.dart';
-import 'package:flutter_app_instagram/HomePage.dart';
-import 'package:flutter_app_instagram/login_page.dart';
-import 'package:flutter_app_instagram/root_page.dart';
-import 'package:flutter_app_instagram/search_page.dart';
+import 'package:flutter_app_20210412_instagram/account_page.dart';
+import 'package:flutter_app_20210412_instagram/HomePage.dart';
+import 'package:flutter_app_20210412_instagram/login_page.dart';
+import 'package:flutter_app_20210412_instagram/root_page.dart';
+import 'package:flutter_app_20210412_instagram/search_page.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
 
 class TabPage extends StatefulWidget {
+  final FirebaseUser user;
+  TabPage(this.user);
   @override
   _TabPageState createState() => _TabPageState();
 }
